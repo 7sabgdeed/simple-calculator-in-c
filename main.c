@@ -7,7 +7,7 @@
 
 
 void print_start_guideline();
-short get_result(double* result, char operator, double num1, double num2);
+int get_result(double* result, char operator, double num1, double num2);
 
 
 int main () {
@@ -75,7 +75,7 @@ void print_start_guideline () {
     printf("\n");
 }
 
-short get_result(double* result, char operator, double num1, double num2) {
+int get_result(double* result, char operator, double num1, double num2) {
 
 
     switch (operator) {
